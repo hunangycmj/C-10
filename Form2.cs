@@ -31,16 +31,6 @@ namespace WindowsFormsApp1
             查看联系人 aboutFrm = new 查看联系人();
             aboutFrm.MdiParent = this;
             aboutFrm.Show();
-            menuStrip1.Text = aboutFrm.Text;
-
-        }
-
-        private void 新建分组ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddIteme AddItemsFrm = new AddIteme();
-            AddItemsFrm.MdiParent = this;
-            AddItemsFrm.Show();
-            menuStrip1.Text = AddItemsFrm.Text;
 
         }
     }

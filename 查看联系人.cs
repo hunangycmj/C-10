@@ -19,7 +19,6 @@ namespace WindowsFormsApp1
         }
         string connString = "Data Source=liujie.database.windows.net;Initial Catalog=kujie;User Id=liujie;Pwd=kujie2001.";
         SqlConnection conn;//声明连接对象
-      
         private void button1_Click(object sender, EventArgs e)
         {
             string sql = "select * from tel";
